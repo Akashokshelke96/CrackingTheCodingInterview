@@ -2,7 +2,8 @@ package ArraysStrings;
 
 public class URLify {
     public static void main(String[] args) {
-        //If there is space in the string, replace it with a '%02', the input string already has some empty spaces in the end, to accomodate the change/
+        //If there is space in the string, replace it with a '%02',
+        // the input string already has some empty spaces in the end, to accommodate the change.
         String str = "I am the danger. Walter        ";
         replaceSpaces(str.toCharArray(),23);
     }
